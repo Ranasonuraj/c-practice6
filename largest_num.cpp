@@ -3,18 +3,17 @@ using namespace std;
 int main()
 {
    float n1, n2, n3;
-    cout << "Enter three numbers: ";
     cin >> n1 >> n2 >> n3;
     if(n1 >= n2 && n1 >= n3)
     {
-        cout << "Largest number: " << n1;
+        cout<< n1;
     }
-    if(n2 >= n1 && n2 >= n3)
+    else if(n2 >= n1 && n2 >= n3)
     {
-        cout << "Largest number: " << n2;
+        cout<< n2;
     }
-    if(n3 >= n1 && n3 >= n2) {
-        cout << "Largest number: " << n3;
+    else{
+        cout<< n3;
     }
     return 0;
 }
